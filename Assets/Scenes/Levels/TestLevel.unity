@@ -168,9 +168,9 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &642203562 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3626395447109416217, guid: 36a23026d623ab34c8ef8e9e8cb8ea09, type: 3}
+--- !u!1 &642203557 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3626395447109416221, guid: 36a23026d623ab34c8ef8e9e8cb8ea09, type: 3}
   m_PrefabInstance: {fileID: 3626395448047330845}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &764205955
@@ -1095,7 +1095,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0.38294762, g: 0.5849056, b: 0.57714903, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -1143,25 +1143,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1818360608 &966700672
-PositionConstraint:
+--- !u!114 &966700672
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 966700668}
-  m_Enabled: 1
-  m_Weight: 0.8
-  m_TranslationAtRest: {x: 0, y: 0, z: -10}
-  m_TranslationOffset: {x: 0, y: 0, z: -10}
-  m_AffectTranslationX: 1
-  m_AffectTranslationY: 1
-  m_AffectTranslationZ: 1
-  m_IsContraintActive: 1
-  m_IsLocked: 1
-  m_Sources:
-  - sourceTransform: {fileID: 642203562}
-    weight: 1
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 873579826bcfcf54aa0b2c276b4c6ee2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 642203557}
+  timeOffset: 0
+  posOffset: {x: 0, y: 0, z: 0}
+  velocity: {x: 0, y: 0, z: 0}
 --- !u!1001 &3626395448047330845
 PrefabInstance:
   m_ObjectHideFlags: 0
