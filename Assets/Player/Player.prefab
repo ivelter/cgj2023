@@ -140,7 +140,9 @@ GameObject:
   - component: {fileID: 3626395447109416222}
   - component: {fileID: 3626395447109416220}
   - component: {fileID: 4311867141460164169}
+  - component: {fileID: 8230773505527279688}
   - component: {fileID: 703330907345286482}
+  - component: {fileID: 382126714516425366}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -229,8 +231,8 @@ Rigidbody2D:
   m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
+  m_UseAutoMass: 1
+  m_Mass: 1.7853982
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 12
@@ -246,7 +248,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3626395447109416221}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -265,6 +267,22 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 2}
   m_EdgeRadius: 0
+--- !u!70 &8230773505527279688
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3626395447109416221}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 1, y: 2}
+  m_Direction: 0
 --- !u!114 &703330907345286482
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -278,12 +296,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 500
-  jumpForce: 800
+  jumpForce: 1200
+  jumpForceMultiplier: 1
   groundCheckLeft: {fileID: 7653161297718258938}
   groundCheckRight: {fileID: 6851350132844734901}
   waterCheck: {fileID: 1810950331741668826}
   rb: {fileID: 3626395447109416220}
   spriteRenderer: {fileID: 3626395447109416222}
+--- !u!114 &382126714516425366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3626395447109416221}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbbfeefd19a0c3f4eb14c87e6175665f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unlockedNormal: 1
+  unlockedSnow: 1
+  unlockedRain: 1
+  unlockedHeatWave: 1
+  isNormalWeather: 1
+  isSnowing: 0
+  isRaining: 0
+  isHeatWave: 0
 --- !u!1 &4967245822804391961
 GameObject:
   m_ObjectHideFlags: 0
