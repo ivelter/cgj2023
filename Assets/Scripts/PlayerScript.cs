@@ -6,6 +6,7 @@ public class PlayerScript : MonoBehaviour
     //Movement variables
     public float moveSpeed;
     public float jumpForce;
+    public int jumpForceMultiplier = 1;
 
     public Transform groundCheckLeft;
     public Transform groundCheckRight;
@@ -28,7 +29,7 @@ public class PlayerScript : MonoBehaviour
     {
         if (isOutOfBounds())
         {
-            gameObject.transform.position = new Vector3(0, 0, 0);
+            Die();
         }
         float horizontalMovment = Input.GetAxis("Horizontal") * moveSpeed * Time.deltaTime;
         auSol = Physics2D.OverlapArea(groundCheckLeft.position, groundCheckRight.position);
@@ -53,12 +54,12 @@ public class PlayerScript : MonoBehaviour
         
         if (isJumping && !onSurfaceWater && !jumpingOutOfWater)
         {
-            rb.AddForce(new Vector2(0f,jumpForce));
+            rb.AddForce(new Vector2(0f,jumpForce*jumpForceMultiplier));
             isJumping = false;
         }
         else if (isJumping && onSurfaceWater)
         {
-            rb.AddForce(new Vector2(0f,jumpForce/10));
+            rb.AddForce(new Vector2(0f,jumpForce*jumpForceMultiplier/25));
             jumpingOutOfWater = true;
             isJumping = false;
         }
@@ -90,6 +91,11 @@ public class PlayerScript : MonoBehaviour
         {
             onSurfaceWater = false;
         }
+
+        if (other.gameObject.name == "Fire")
+        {
+            Die();
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D col)
@@ -98,9 +104,11 @@ public class PlayerScript : MonoBehaviour
         {
             case "Ice":
                 rb.drag = iceDrag;
+                jumpForceMultiplier = 1;
                 break;
             case "Terrain":
                 rb.drag = groundDrag;
+                jumpForceMultiplier = 6;
                 break;
         }
         
@@ -109,5 +117,10 @@ public class PlayerScript : MonoBehaviour
     private bool isOutOfBounds()
     {
         return gameObject.transform.position.y <= -3;
+    }
+
+    private void Die()
+    {
+        gameObject.transform.position = new Vector3(0, 0, 0);
     }
 }
