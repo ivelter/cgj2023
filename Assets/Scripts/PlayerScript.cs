@@ -18,17 +18,18 @@ public class PlayerScript : MonoBehaviour
 
     public Rigidbody2D rb;
     public SpriteRenderer spriteRenderer;
+    
+    private float groundDrag = 12;
+    private float iceDrag = 0;
     //public Animator anime;
     private Vector3 velocity = Vector3.zero;
-    
-    //Season changes variables
-    private bool unlockedNormal = true;
-    private bool unlockedSnow = true;
-    private bool unlockedRain = true;
-    private bool unlockedHeatWave = true;
 
     private void FixedUpdate()
     {
+        if (isOutOfBounds())
+        {
+            gameObject.transform.position = new Vector3(0, 0, 0);
+        }
         float horizontalMovment = Input.GetAxis("Horizontal") * moveSpeed * Time.deltaTime;
         auSol = Physics2D.OverlapArea(groundCheckLeft.position, groundCheckRight.position);
         if(Input.GetButton("Jump") && auSol == true) {
@@ -39,7 +40,7 @@ public class PlayerScript : MonoBehaviour
         float absVelocityX = Mathf.Abs(rb.velocity.x);
         
         //anime.SetFloat("speed",absVelocityX);
-        Debug.Log(onSurfaceWater);
+        //Debug.Log(onSurfaceWater);
     }
 
     private void MPlayer(float horizontalMovment) {
@@ -89,5 +90,24 @@ public class PlayerScript : MonoBehaviour
         {
             onSurfaceWater = false;
         }
+    }
+
+    private void OnCollisionEnter2D(Collision2D col)
+    {
+        switch (col.gameObject.tag)
+        {
+            case "Ice":
+                rb.drag = iceDrag;
+                break;
+            case "Terrain":
+                rb.drag = groundDrag;
+                break;
+        }
+        
+    }
+    
+    private bool isOutOfBounds()
+    {
+        return gameObject.transform.position.y <= -3;
     }
 }
