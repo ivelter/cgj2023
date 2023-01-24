@@ -168,11 +168,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &569575538 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6851350132844734901, guid: 36a23026d623ab34c8ef8e9e8cb8ea09, type: 3}
-  m_PrefabInstance: {fileID: 3626395448047330845}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &642203562 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3626395447109416217, guid: 36a23026d623ab34c8ef8e9e8cb8ea09, type: 3}
@@ -1156,7 +1151,7 @@ PositionConstraint:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 966700668}
   m_Enabled: 1
-  m_Weight: 1
+  m_Weight: 0.8
   m_TranslationAtRest: {x: 0, y: 0, z: -10}
   m_TranslationOffset: {x: 0, y: 0, z: -10}
   m_AffectTranslationX: 1
@@ -1167,11 +1162,6 @@ PositionConstraint:
   m_Sources:
   - sourceTransform: {fileID: 642203562}
     weight: 1
---- !u!4 &2100273800 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7653161297718258938, guid: 36a23026d623ab34c8ef8e9e8cb8ea09, type: 3}
-  m_PrefabInstance: {fileID: 3626395448047330845}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3626395448047330845
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1179,18 +1169,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 703330907345286482, guid: 36a23026d623ab34c8ef8e9e8cb8ea09, type: 3}
-      propertyPath: jumpForce
-      value: 200
-      objectReference: {fileID: 0}
-    - target: {fileID: 703330907345286482, guid: 36a23026d623ab34c8ef8e9e8cb8ea09, type: 3}
-      propertyPath: groundCheckLeft
-      value: 
-      objectReference: {fileID: 2100273800}
-    - target: {fileID: 703330907345286482, guid: 36a23026d623ab34c8ef8e9e8cb8ea09, type: 3}
-      propertyPath: groundCheckRight
-      value: 
-      objectReference: {fileID: 569575538}
     - target: {fileID: 3626395447109416217, guid: 36a23026d623ab34c8ef8e9e8cb8ea09, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -1234,10 +1212,6 @@ PrefabInstance:
     - target: {fileID: 3626395447109416217, guid: 36a23026d623ab34c8ef8e9e8cb8ea09, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3626395447109416220, guid: 36a23026d623ab34c8ef8e9e8cb8ea09, type: 3}
-      propertyPath: m_CollisionDetection
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3626395447109416221, guid: 36a23026d623ab34c8ef8e9e8cb8ea09, type: 3}
       propertyPath: m_Name
