@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - Terrain
+  - WaterSurface
+  - WaterDepth
+  - Ice
+  - RainWater
   layers:
   - Default
   - TransparentFX

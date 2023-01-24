@@ -1,47 +1,71 @@
+using System;
 using UnityEngine;
 
 public class PlayerScript : MonoBehaviour
 {
+    //Movement variables
     public float moveSpeed;
     public float jumpForce;
+    public int jumpForceMultiplier = 1;
 
     public Transform groundCheckLeft;
     public Transform groundCheckRight;
+    public Transform waterCheck;
     
     private bool isJumping;
     private bool auSol;
-    
+    private bool onSurfaceWater = false;
+    private bool jumpingOutOfWater = false;
+
     public Rigidbody2D rb;
     public SpriteRenderer spriteRenderer;
+    
+    private float groundDrag = 12;
+    private float iceDrag = 0;
     //public Animator anime;
     private Vector3 velocity = Vector3.zero;
 
     private void FixedUpdate()
     {
+        if (isOutOfBounds())
+        {
+            Die();
+        }
         float horizontalMovment = Input.GetAxis("Horizontal") * moveSpeed * Time.deltaTime;
         auSol = Physics2D.OverlapArea(groundCheckLeft.position, groundCheckRight.position);
         if(Input.GetButton("Jump") && auSol == true) {
             isJumping = true;
         }
-        Debug.Log(isJumping);
-
         MPlayer(horizontalMovment);
         Flip(rb.velocity.x);
         float absVelocityX = Mathf.Abs(rb.velocity.x);
+        
         //anime.SetFloat("speed",absVelocityX);
+        //Debug.Log(onSurfaceWater);
     }
 
-    void MPlayer(float horizontalMovment) {
+    private void MPlayer(float horizontalMovment) {
         Vector3 targetVelocity = new Vector2(horizontalMovment,rb.velocity.y);
         rb.velocity = Vector3.SmoothDamp(rb.velocity, targetVelocity, ref velocity, 0.05f);
-        if (isJumping == true)
+        if (jumpingOutOfWater && auSol && !onSurfaceWater)
         {
-            rb.AddForce(new Vector2(0f,jumpForce));
+            jumpingOutOfWater = false;
+        }
+        
+        if (isJumping && !onSurfaceWater && !jumpingOutOfWater)
+        {
+            rb.AddForce(new Vector2(0f,jumpForce*jumpForceMultiplier));
+            isJumping = false;
+        }
+        else if (isJumping && onSurfaceWater)
+        {
+            rb.AddForce(new Vector2(0f,jumpForce*jumpForceMultiplier/25));
+            jumpingOutOfWater = true;
             isJumping = false;
         }
     }
 
-    void Flip(float _velocity)
+    private void Flip(float _velocity)
     {
         if (_velocity > 0.1f)
         {
@@ -51,5 +75,52 @@ public class PlayerScript : MonoBehaviour
         {
             spriteRenderer.flipX = true;
         }
+    }
+
+    private void OnTriggerStay2D(Collider2D other)
+    {
+        if (other.gameObject.layer == 4)
+        {
+            onSurfaceWater = true;
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.gameObject.layer == 4)
+        {
+            onSurfaceWater = false;
+        }
+
+        if (other.gameObject.name == "Fire")
+        {
+            Die();
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D col)
+    {
+        switch (col.gameObject.tag)
+        {
+            case "Ice":
+                rb.drag = iceDrag;
+                jumpForceMultiplier = 1;
+                break;
+            case "Terrain":
+                rb.drag = groundDrag;
+                jumpForceMultiplier = 6;
+                break;
+        }
+        
+    }
+    
+    private bool isOutOfBounds()
+    {
+        return gameObject.transform.position.y <= -3;
+    }
+
+    private void Die()
+    {
+        gameObject.transform.position = new Vector3(0, 0, 0);
     }
 }
