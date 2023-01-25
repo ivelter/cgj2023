@@ -21,4 +21,9 @@ public class LoadScenes : MonoBehaviour
     {
         SceneManager.LoadScene("Placeholder");
     }
+
+    public void loadHub()
+    {
+        SceneManager.LoadScene("Hub");
+    }
 }

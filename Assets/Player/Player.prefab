@@ -143,6 +143,8 @@ GameObject:
   - component: {fileID: 8230773505527279688}
   - component: {fileID: 703330907345286482}
   - component: {fileID: 382126714516425366}
+  - component: {fileID: 1602722378284052925}
+  - component: {fileID: 5958223046571535221}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -302,6 +304,7 @@ MonoBehaviour:
   groundCheckRight: {fileID: 6851350132844734901}
   waterCheck: {fileID: 1810950331741668826}
   rb: {fileID: 3626395447109416220}
+  animator: {fileID: 0}
   spriteRenderer: {fileID: 3626395447109416222}
 --- !u!114 &382126714516425366
 MonoBehaviour:
@@ -315,6 +318,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cbbfeefd19a0c3f4eb14c87e6175665f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 1602722378284052925}
   unlockedNormal: 1
   unlockedSnow: 1
   unlockedRain: 1
@@ -323,6 +327,38 @@ MonoBehaviour:
   isSnowing: 0
   isRaining: 0
   isHeatWave: 0
+--- !u!95 &1602722378284052925
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3626395447109416221}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f50b966cc1408cd43b52dae12d73d6e8, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+--- !u!114 &5958223046571535221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3626395447109416221}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9dc09540943539f4d9f58f70038b62d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4967245822804391961
 GameObject:
   m_ObjectHideFlags: 0

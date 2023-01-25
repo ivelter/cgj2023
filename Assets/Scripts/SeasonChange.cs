@@ -9,6 +9,7 @@ public class SeasonChange : MonoBehaviour
     // Handles season changes based on player input (wxcv)
     private Scene currentScene;
     private GameObject player;
+    public Animator animator;
     
     //Changements débloqués ?
     public bool unlockedNormal = true;
@@ -47,6 +48,45 @@ public class SeasonChange : MonoBehaviour
         SeasonChangeInput();
     }
 
+    void SaveUnlocks()
+    {
+        if (unlockedNormal)
+        {
+            PlayerPrefs.SetInt("unlockedNormal",1);
+        }
+        else
+        {
+            PlayerPrefs.SetInt("unlockedNormal",0);
+        }
+        
+        if (unlockedSnow)
+        {
+            PlayerPrefs.SetInt("unlockedSnow",1);
+        }
+        else
+        {
+            PlayerPrefs.SetInt("unlockedSnow",0);
+        }
+        
+        if (unlockedRain)
+        {
+            PlayerPrefs.SetInt("unlockedRain",1);
+        }
+        else
+        {
+            PlayerPrefs.SetInt("unlockedRain",0);
+        }
+        
+        if (unlockedHeatWave)
+        {
+            PlayerPrefs.SetInt("unlockedHeatWave",1);
+        }
+        else
+        {
+            PlayerPrefs.SetInt("unlockedHeatWave",0);
+        }
+    }
+    
     void SeasonChangeInput()
     {
         if (Input.GetButton("BaseWeather") && unlockedNormal && !isNormalWeather)
@@ -56,6 +96,8 @@ public class SeasonChange : MonoBehaviour
             isSnowing = false;
             isRaining = false;
             isHeatWave = false;
+            animator.SetInteger("meteo",0);
+            
         }
         else if (Input.GetButton("Snow") && unlockedSnow && !isSnowing)
         {
@@ -64,6 +106,7 @@ public class SeasonChange : MonoBehaviour
             isSnowing = true;
             isRaining = false;
             isHeatWave = false;
+            animator.SetInteger("meteo",3);
         }
         else if (Input.GetButton("Rain") && unlockedRain && !isRaining)
         {
@@ -72,6 +115,7 @@ public class SeasonChange : MonoBehaviour
             isSnowing = false;
             isRaining = true;
             isHeatWave = false;
+            animator.SetInteger("meteo",1);
         }
         else if (Input.GetButton("HeatWave") && unlockedHeatWave && !isHeatWave)
         {
@@ -80,6 +124,7 @@ public class SeasonChange : MonoBehaviour
             isSnowing = false;
             isRaining = false;
             isHeatWave = true;
+            animator.SetInteger("meteo",2);
         }
     }
     
