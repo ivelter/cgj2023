@@ -19,6 +19,7 @@ public class PlayerScript : MonoBehaviour
     private bool jumpingOutOfWater = false;
 
     public Rigidbody2D rb;
+    public Animator animator;
     public SpriteRenderer spriteRenderer;
     
     private float groundDrag = 12;
@@ -41,15 +42,20 @@ public class PlayerScript : MonoBehaviour
         }
         float horizontalMovment = Input.GetAxis("Horizontal") * moveSpeed * Time.deltaTime;
         auSol = Physics2D.OverlapArea(groundCheckLeft.position, groundCheckRight.position);
-        if(Input.GetButton("Jump") && auSol == true) {
+        if(Input.GetButton("Jump") && auSol) {
             isJumping = true;
+            animator.SetBool("animJump",true);
+        }
+        else if (auSol)
+        {
+            isJumping = false;
+            animator.SetBool("animJump",false);
         }
         MPlayer(horizontalMovment);
         Flip(rb.velocity.x);
         float absVelocityX = Mathf.Abs(rb.velocity.x);
         
-        //anime.SetFloat("speed",absVelocityX);
-        //Debug.Log(onSurfaceWater);
+        animator.SetFloat("animSpeed",absVelocityX);
     }
 
     private void MPlayer(float horizontalMovment) {
@@ -58,6 +64,7 @@ public class PlayerScript : MonoBehaviour
         if (jumpingOutOfWater && auSol && !onSurfaceWater)
         {
             jumpingOutOfWater = false;
+            rb.AddForce(new Vector2(0f,jumpForce*jumpForceMultiplier*-1.1f));
         }
         
         if (isJumping && !onSurfaceWater && !jumpingOutOfWater)
