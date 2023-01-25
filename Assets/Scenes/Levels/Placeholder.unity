@@ -1000,6 +1000,18 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3626395447109416217, guid: 36a23026d623ab34c8ef8e9e8cb8ea09, type: 3}
   m_PrefabInstance: {fileID: 3626395448047330845}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &642203569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 642203557}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9dc09540943539f4d9f58f70038b62d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &764205955
 GameObject:
   m_ObjectHideFlags: 0
@@ -3355,7 +3367,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2096851654088705971, guid: db6a00c310c8c6d429b3bf9d9209f6a2, type: 3}
       propertyPath: m_TagString
-      value: PortalToLevel2
+      value: portal
       objectReference: {fileID: 0}
     - target: {fileID: 7433644114709836042, guid: db6a00c310c8c6d429b3bf9d9209f6a2, type: 3}
       propertyPath: m_RootOrder

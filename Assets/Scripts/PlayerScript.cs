@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerScript : MonoBehaviour
 {
@@ -24,6 +25,13 @@ public class PlayerScript : MonoBehaviour
     private float iceDrag = 0;
     //public Animator anime;
     private Vector3 velocity = Vector3.zero;
+
+    private LoadScenes scenes;
+
+    private void Start()
+    {
+        scenes = GetComponent<LoadScenes>();
+    }
 
     private void FixedUpdate()
     {
@@ -82,6 +90,16 @@ public class PlayerScript : MonoBehaviour
         if (other.gameObject.layer == 4)
         {
             onSurfaceWater = true;
+        }
+
+        if (other.CompareTag("portal"))
+        {
+            switch (SceneManager.GetActiveScene().name)
+            {
+                case "Placeholder":
+                    scenes.loadTitle();
+                    break;
+            }
         }
     }
 

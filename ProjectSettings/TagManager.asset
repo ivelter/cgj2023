@@ -9,6 +9,8 @@ TagManager:
   - WaterDepth
   - Ice
   - RainWater
+  - PortalToLevel2
+  - portal
   layers:
   - Default
   - TransparentFX
