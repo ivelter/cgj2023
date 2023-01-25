@@ -119,8 +119,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 60afbefb8e6e5be48b7cdd2cae83acb7
-      internalID: 1158454324
+      spriteID: 4ea069b50cee8fa4e9f483639e1721da
+      internalID: -1053386757
       vertices: []
       indices: 
       edges: []
@@ -140,8 +140,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f1c4ff597d1b55b479702ac47891955b
-      internalID: 890373376
+      spriteID: 86a750c69e6699045830e51c8030d1ad
+      internalID: 949309440
       vertices: []
       indices: 
       edges: []
@@ -161,8 +161,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 737c18f6107f6ce4aba7ea82b83d8c9a
-      internalID: -726215021
+      spriteID: da5fb9b827941a04993414af1cf5b169
+      internalID: 1457336175
       vertices: []
       indices: 
       edges: []
@@ -182,8 +182,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aadb8d7308af26547bd842c5947017d4
-      internalID: 232645728
+      spriteID: 6fb74f1007f6c614c90a52c72fd6a3b5
+      internalID: -1024798512
       vertices: []
       indices: 
       edges: []
@@ -203,8 +203,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 48c68d34d66e21542bbea69685d2e025
-      internalID: 647697171
+      spriteID: a97b06b0bbab5824996e856421a1516b
+      internalID: -313736498
       vertices: []
       indices: 
       edges: []
@@ -224,8 +224,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6a18cfb13d64e0042b6683dec12c98e2
-      internalID: -1180894669
+      spriteID: 7d3d541ce010cb540a5f37137dff4ccc
+      internalID: 761198170
       vertices: []
       indices: 
       edges: []
@@ -245,8 +245,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 553a699a5a149d8478826e0bfa434b14
-      internalID: -1583329496
+      spriteID: 4298912f4360e7e40bbbe37c5a6d40b7
+      internalID: 4326965
       vertices: []
       indices: 
       edges: []
@@ -266,8 +266,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d9dc127bb18b6944f9dfbcc5e2c09d1f
-      internalID: -253626737
+      spriteID: 59671c18baac9364e936f207ca7fcc05
+      internalID: 960412240
       vertices: []
       indices: 
       edges: []
@@ -287,8 +287,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 04072d9c038f51d44a2e6f395399ac33
-      internalID: -1478452175
+      spriteID: 25f510a943c2d3e40a4f01547a254e43
+      internalID: -759773111
       vertices: []
       indices: 
       edges: []
@@ -308,8 +308,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 89c955ec3575013468b060417f233ab0
-      internalID: 1381799586
+      spriteID: 7c95988c21192f346af51d83f63660c5
+      internalID: -1089630888
       vertices: []
       indices: 
       edges: []
@@ -329,8 +329,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8dcc584c2b04315438cf4061b6e84a59
-      internalID: -787455322
+      spriteID: 4801c04c6e8807345a6b47534b952a4c
+      internalID: -524986505
       vertices: []
       indices: 
       edges: []
@@ -350,8 +350,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 43ab826d777fcae4bbd1b4dbd09ab987
-      internalID: -1545415919
+      spriteID: 1007fe293546cc94caa93f17b997e946
+      internalID: 450558073
       vertices: []
       indices: 
       edges: []
@@ -371,8 +371,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ee0ef9e0a187be94ebff2c638cd0e1b9
-      internalID: 1375281522
+      spriteID: cfc9f248fb917c346a50fa271662eaaf
+      internalID: 1477832668
       vertices: []
       indices: 
       edges: []
@@ -392,8 +392,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5f7bb8b10c1f750408a06d98fdd40127
-      internalID: 1623547910
+      spriteID: 66ad14dff1a79c341a31f565d3c6c469
+      internalID: 1708259473
       vertices: []
       indices: 
       edges: []
@@ -413,8 +413,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 41954d5bb0cc6834397f75adf432705d
-      internalID: -2010093089
+      spriteID: f5982c2e878edf04280320a90628e042
+      internalID: -617402967
       vertices: []
       indices: 
       edges: []
@@ -434,8 +434,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 68cfab0feea6e834aa4c5f28ae15b2b3
-      internalID: 1360617576
+      spriteID: 30d84e4b0bcca9345a932c1d2267c345
+      internalID: 769809556
       vertices: []
       indices: 
       edges: []
@@ -455,8 +455,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b1e1d33061acaca4d9cea19a1212f523
-      internalID: 1227080489
+      spriteID: fab190d4bbb821345a5dacf40c4e99ac
+      internalID: -680564999
       vertices: []
       indices: 
       edges: []
@@ -476,8 +476,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3f8e7ac9b8c7e3340bab7fd2b0dbdf09
-      internalID: -124488089
+      spriteID: dbb9d27cea3664b4ca907bdbca3b1c14
+      internalID: -1182383849
       vertices: []
       indices: 
       edges: []
@@ -497,8 +497,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9c284ed2a856c2c49a85e2e784e773c1
-      internalID: 812556058
+      spriteID: cf86146c65b8dfa45956d8d87694dbde
+      internalID: 653474172
       vertices: []
       indices: 
       edges: []
@@ -518,8 +518,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2e510154a6b90954086cebceb1be92d8
-      internalID: -716602101
+      spriteID: 692d2c0f1c5433f4f939c851a0e9083e
+      internalID: -439166122
       vertices: []
       indices: 
       edges: []
@@ -539,8 +539,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c38485657d5f6934ebda8537a8b3808c
-      internalID: 1634120359
+      spriteID: 8745396278178de43b319199d7f0bff8
+      internalID: 1502272733
       vertices: []
       indices: 
       edges: []
@@ -560,8 +560,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ddac609c2961faa408c3361771e51bee
-      internalID: 1253892852
+      spriteID: dda196162595ee14891fe2dc1bf3bb05
+      internalID: 228477114
       vertices: []
       indices: 
       edges: []
@@ -581,8 +581,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: abd5e9fbbd0ca6348bf6444a26bfa1ef
-      internalID: -825943253
+      spriteID: 895955fce0c2238448d69899348a0032
+      internalID: 126948145
       vertices: []
       indices: 
       edges: []
@@ -602,8 +602,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1e4ee44986d22b6448aba893b687877a
-      internalID: -913394966
+      spriteID: a13a2a4d0355eef448c9a74f3a343988
+      internalID: 1576900549
       vertices: []
       indices: 
       edges: []
@@ -623,8 +623,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f31c4a910163e91488eb628191181323
-      internalID: 1806925210
+      spriteID: 06e38c876212d4d49905c2c38bd09d7a
+      internalID: 338348435
       vertices: []
       indices: 
       edges: []
@@ -644,8 +644,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 82d2894a45f263b4e90e8783eba93f16
-      internalID: -1999711948
+      spriteID: bc4cd33f7af1f76469e26d62075a2779
+      internalID: -827069130
       vertices: []
       indices: 
       edges: []
@@ -665,8 +665,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e42095a93f8085a4d9c104e03dce3cd9
-      internalID: 907797375
+      spriteID: 82e0ef5307f84904387717d42971b075
+      internalID: 201765325
       vertices: []
       indices: 
       edges: []
@@ -686,8 +686,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5e76905be8af1e947bb7621a0e76efdc
-      internalID: 400631588
+      spriteID: bc59a385aece2a44290ba3d79c60005c
+      internalID: -1023727074
       vertices: []
       indices: 
       edges: []
@@ -707,8 +707,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f86317f421e567d4d9280c677ed3b34e
-      internalID: -1400054681
+      spriteID: 39a0e90efed474e4aa5ee0bb90f5fc4a
+      internalID: 575100259
       vertices: []
       indices: 
       edges: []
@@ -728,8 +728,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 121a7c99e63c56b4bb944853401a0b64
-      internalID: -1841207128
+      spriteID: 2f90ba99dbe294e449dd1a17788f542a
+      internalID: -1745104364
       vertices: []
       indices: 
       edges: []
@@ -749,8 +749,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f9122f2b63b236a43af04713eb451718
-      internalID: 454752996
+      spriteID: 7f1cc257aeec7b24c92f89d85494bca8
+      internalID: 1637558904
       vertices: []
       indices: 
       edges: []
@@ -770,8 +770,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 18bfd33725bfeb74d9ecb3c6ca37ee1a
-      internalID: -1832161318
+      spriteID: 103d050824a2b054cb0d64c68029d20d
+      internalID: 828699963
       vertices: []
       indices: 
       edges: []
@@ -791,8 +791,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ddaff4395d52f0142bd108a493427e09
-      internalID: 1571843151
+      spriteID: cbde1fa3802fe9c499ad8d5904146633
+      internalID: -1018516343
       vertices: []
       indices: 
       edges: []
@@ -812,8 +812,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3f872d8534521fc49a22f5773ad428f2
-      internalID: 1735599210
+      spriteID: 77a643f0ed1b7234f99c5f7d554381c4
+      internalID: -1103559773
       vertices: []
       indices: 
       edges: []
@@ -833,8 +833,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d294bd1b0a9c952469d4c5f946c956c2
-      internalID: -1908746365
+      spriteID: e406eb5d0d7d7ce4db1faf7f34acd2b7
+      internalID: -236464396
       vertices: []
       indices: 
       edges: []
@@ -854,8 +854,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 17e6bcfb30d641547963e19bb13cb45e
-      internalID: 2090802022
+      spriteID: 2d4286d7fd85acc42847f59474beae5c
+      internalID: -385409648
       vertices: []
       indices: 
       edges: []
@@ -875,8 +875,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7167bba37a4495846a02957f9169f3e0
-      internalID: 1764607723
+      spriteID: 36fc70e0db849234bb7392704204ecf6
+      internalID: 1412879121
       vertices: []
       indices: 
       edges: []
@@ -896,8 +896,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fae5636e12027dc4c89f7331229041d3
-      internalID: -965007108
+      spriteID: 0040d79206ae2604ba127015ca82fabb
+      internalID: -231957533
       vertices: []
       indices: 
       edges: []
@@ -917,8 +917,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a88a2f72c3c164343b73e9056f75089b
-      internalID: -1310930969
+      spriteID: 0de54df72d9b63f4b9000e60772c6500
+      internalID: -1079840710
       vertices: []
       indices: 
       edges: []
@@ -938,8 +938,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 862e0c9f951009549965df0df5f267de
-      internalID: 621743787
+      spriteID: 522a28e850294e5438b4b6aa753c6701
+      internalID: 1167757948
       vertices: []
       indices: 
       edges: []
@@ -959,8 +959,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0148f64f8d1936c4da0e24ab452a08de
-      internalID: -929582891
+      spriteID: 2e7ef7367737a7449845c02a3e71ee40
+      internalID: 144975299
       vertices: []
       indices: 
       edges: []
@@ -980,8 +980,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ecd73d04a7fa33941becd5f313c6b07d
-      internalID: 1624101112
+      spriteID: a476cda166e5aff469759201f8693692
+      internalID: 220188757
       vertices: []
       indices: 
       edges: []
@@ -1001,14 +1001,56 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c4ec593102b8384db0b15bfe84bcc8d
-      internalID: 628625086
+      spriteID: 3fb16d90f22d591498a9284946dce387
+      internalID: -20122567
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
       name: Canicule_43
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 114
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 980811b29ad16dd46b9f280dbdd8df3d
+      internalID: -1457207287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canicule_44
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 114
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd526123f097e324db846914b7b5cdfe
+      internalID: 128300274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canicule_45
       rect:
         serializedVersion: 2
         x: 144
@@ -1022,14 +1064,56 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9f918b1c01a0b3f4e9be6aeb7092c906
-      internalID: -1131334044
+      spriteID: 8f285fa536a198747aff3797a21d331f
+      internalID: -1162294126
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Canicule_44
+      name: Canicule_46
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 98
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38b7d589532614d45bd8f4916b87b387
+      internalID: -446082587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canicule_47
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 98
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3368f0cca7f66c749936c6cb4845b164
+      internalID: -1229653036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canicule_48
       rect:
         serializedVersion: 2
         x: 32
@@ -1043,14 +1127,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b1f04c1fecdc4784d8ce7724b52f2628
-      internalID: 113247179
+      spriteID: ab616d71c3813874ca0852ca638f6e12
+      internalID: 661897636
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Canicule_45
+      name: Canicule_49
       rect:
         serializedVersion: 2
         x: 80
@@ -1064,14 +1148,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e79233705a27ddf489debd66266d5788
-      internalID: -590581231
+      spriteID: ea9c3000247097043a1f6fd0b72da30e
+      internalID: -596462336
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Canicule_46
+      name: Canicule_50
       rect:
         serializedVersion: 2
         x: 96
@@ -1085,14 +1169,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 47daae276b9b7f34493a981a86cb812a
-      internalID: 1896141262
+      spriteID: 03b2bedb7ccc20340882f469e2f7e8a2
+      internalID: -1678575775
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Canicule_47
+      name: Canicule_51
       rect:
         serializedVersion: 2
         x: 16
@@ -1106,14 +1190,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ba70b67383a76174c9f21b24a49a9b06
-      internalID: 1123027457
+      spriteID: a128365484155524cbb0dd71153fcd5b
+      internalID: 971277895
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Canicule_48
+      name: Canicule_52
       rect:
         serializedVersion: 2
         x: 32
@@ -1127,14 +1211,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ad0da935c7cb9eb43b60f668ac7c4f32
-      internalID: 776007851
+      spriteID: 8e2e23536b86715499a5546022db9f27
+      internalID: -830064559
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Canicule_49
+      name: Canicule_53
       rect:
         serializedVersion: 2
         x: 48
@@ -1148,14 +1232,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dc54758a2ce27e4439df234e980c26ed
-      internalID: -829374331
+      spriteID: 492c87efc6ab0d74f9b0d1242404159c
+      internalID: -1086288471
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Canicule_50
+      name: Canicule_54
       rect:
         serializedVersion: 2
         x: 80
@@ -1169,14 +1253,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0b2438113298dbd40a264227eb1ad5bb
-      internalID: 246187925
+      spriteID: 074cfda7a908155418446ca0519e5194
+      internalID: 1890908114
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Canicule_51
+      name: Canicule_55
       rect:
         serializedVersion: 2
         x: 96
@@ -1190,14 +1274,98 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 76e942aa4b456da4b9246aac53f870a3
-      internalID: -1388813363
+      spriteID: a684783ee52cd44498dfb4ecc9136831
+      internalID: 874403293
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Canicule_52
+      name: Canicule_56
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 66
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5e55513b41494c4ba54a34cfe27d938
+      internalID: 1361353663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canicule_57
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 66
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b839692d2db182409feb1789e270195
+      internalID: -1131016783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canicule_58
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 66
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 571b8df9f09f1e248bab70a0b98970fe
+      internalID: 1888942301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canicule_59
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 66
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af01f17b172cd2f4a8fcb9dcfeeb1540
+      internalID: 361225574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canicule_60
       rect:
         serializedVersion: 2
         x: 32
@@ -1211,8 +1379,176 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aa20598e85d9cf448981cd6976d2c5cf
-      internalID: 2026750277
+      spriteID: d5f593308d034c642b60149613b0443d
+      internalID: -1875071134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canicule_61
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 50
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03157603ce2b2cc45a16004f25ed9f88
+      internalID: -1069357465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canicule_62
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 50
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 940eb6e74fb9a6249839c47a5cf6a179
+      internalID: -384959951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canicule_63
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 34
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cba7b593b705b84a8fdecf5b950f36b
+      internalID: 1552002412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canicule_64
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 34
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f26979b6779d3de4185930df20aca300
+      internalID: -360973629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canicule_65
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 18
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e407d74b47f4d4d4bbb77be813803e92
+      internalID: 448769564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canicule_66
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 18
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0376406ad40d4da43be8ecd166051aa0
+      internalID: -1270464956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canicule_67
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 2
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 862cc23cb25f13b4caf3b0491b4c3d11
+      internalID: -1256933858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canicule_68
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 2
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff06db1c23b0e1748b91fe5f6eb2e8f5
+      internalID: 1516750231
       vertices: []
       indices: 
       edges: []
@@ -1228,59 +1564,75 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Canicule_5: -1180894669
-      Canicule_16: 1227080489
-      Canicule_11: -1545415919
-      Canicule_14: -2010093089
-      Canicule_42: 628625086
-      Canicule_8: -1478452175
-      Canicule_35: 2090802022
-      Canicule_25: -1999711948
-      Canicule_19: -716602101
-      Canicule_24: 1806925210
-      Canicule_1: 890373376
-      Canicule_9: 1381799586
-      Canicule_32: 1571843151
-      Canicule_21: 1253892852
-      Canicule_15: 1360617576
-      Canicule_31: -1832161318
-      Canicule_12: 1375281522
-      Canicule_29: -1841207128
-      Canicule_30: 454752996
-      Canicule_43: -1131334044
-      Canicule_36: 1764607723
-      Canicule_48: 776007851
-      Canicule_44: 113247179
-      Canicule_52: 2026750277
-      Canicule_6: -1583329496
-      Canicule_23: -913394966
-      Canicule_7: -253626737
-      Canicule_51: -1388813363
-      Canicule_49: -829374331
-      Canicule_41: 1624101112
-      Canicule_20: 1634120359
-      Canicule_3: 232645728
-      Canicule_34: -1908746365
-      Canicule_33: 1735599210
-      Canicule_39: 621743787
-      Canicule_27: 400631588
-      Canicule_47: 1123027457
-      Canicule_10: -787455322
-      Canicule_28: -1400054681
-      Canicule_37: -965007108
-      Canicule_0: 1158454324
-      Canicule_2: -726215021
-      Canicule_18: 812556058
-      Canicule_46: 1896141262
-      Canicule_45: -590581231
-      Canicule_4: 647697171
-      Canicule_38: -1310930969
-      Canicule_26: 907797375
-      Canicule_50: 246187925
-      Canicule_40: -929582891
-      Canicule_17: -124488089
-      Canicule_13: 1623547910
-      Canicule_22: -825943253
+      Canicule_5: 761198170
+      Canicule_16: -680564999
+      Canicule_11: 450558073
+      Canicule_14: -617402967
+      Canicule_42: -20122567
+      Canicule_64: -360973629
+      Canicule_8: -759773111
+      Canicule_35: -385409648
+      Canicule_25: -827069130
+      Canicule_53: -1086288471
+      Canicule_65: 448769564
+      Canicule_59: 361225574
+      Canicule_58: 1888942301
+      Canicule_60: -1875071134
+      Canicule_19: -439166122
+      Canicule_24: 338348435
+      Canicule_1: 949309440
+      Canicule_9: -1089630888
+      Canicule_32: -1018516343
+      Canicule_21: 228477114
+      Canicule_15: 769809556
+      Canicule_31: 828699963
+      Canicule_12: 1477832668
+      Canicule_29: -1745104364
+      Canicule_30: 1637558904
+      Canicule_63: 1552002412
+      Canicule_43: -1457207287
+      Canicule_36: 1412879121
+      Canicule_48: 661897636
+      Canicule_44: 128300274
+      Canicule_56: 1361353663
+      Canicule_52: -830064559
+      Canicule_6: 4326965
+      Canicule_23: 1576900549
+      Canicule_7: 960412240
+      Canicule_51: 971277895
+      Canicule_68: 1516750231
+      Canicule_49: -596462336
+      Canicule_41: 220188757
+      Canicule_20: 1502272733
+      Canicule_61: -1069357465
+      Canicule_3: -1024798512
+      Canicule_34: -236464396
+      Canicule_67: -1256933858
+      Canicule_66: -1270464956
+      Canicule_33: -1103559773
+      Canicule_39: 1167757948
+      Canicule_27: -1023727074
+      Canicule_47: -1229653036
+      Canicule_10: -524986505
+      Canicule_28: 575100259
+      Canicule_37: -231957533
+      Canicule_0: -1053386757
+      Canicule_2: 1457336175
+      Canicule_18: 653474172
+      Canicule_46: -446082587
+      Canicule_54: 1890908114
+      Canicule_45: -1162294126
+      Canicule_4: -313736498
+      Canicule_38: -1079840710
+      Canicule_26: 201765325
+      Canicule_55: 874403293
+      Canicule_50: -1678575775
+      Canicule_40: 144975299
+      Canicule_17: -1182383849
+      Canicule_13: 1708259473
+      Canicule_22: 126948145
+      Canicule_62: -384959951
+      Canicule_57: -1131016783
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
